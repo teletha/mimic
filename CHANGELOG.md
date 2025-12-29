@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/teletha/mimic/compare/v1.0.4...v1.0.5) (2025-12-29)
+
+
+### Bug Fixes
+
+* don't outpu map file ([614544e](https://github.com/teletha/mimic/commit/614544eaf1c4380839ed1abe63853965842707be))
+
 ## [1.0.4](https://github.com/teletha/mimic/compare/v1.0.3...v1.0.4) (2025-12-29)
 
 
