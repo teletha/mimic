@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/teletha/mimic/compare/v1.0.1...v1.0.2) (2025-12-29)
+
+
+### Bug Fixes
+
+* Multiple versions of pnpm specified ([7f05605](https://github.com/teletha/mimic/commit/7f056059bbee1db716377f17007aa3d943e04395))
+
 ## [1.0.1](https://github.com/teletha/mimic/compare/v1.0.0...v1.0.1) (2025-12-29)
 
 
