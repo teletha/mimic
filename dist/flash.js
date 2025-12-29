@@ -216,4 +216,3 @@ if (beacon) {
   script.src = "https://static.cloudflareinsights.com/beacon.min.js";
   document.body.appendChild(script);
 }
-//# sourceMappingURL=flash.js.map

@@ -12,7 +12,7 @@ export default defineConfig({
 			formats: ["es"],
 		},
 		minify: false,
-		sourcemap: true,
+		sourcemap: false,
 		rollupOptions: {
 			output: [
 				{
@@ -29,7 +29,7 @@ export default defineConfig({
 							name: "terser",
 							async renderChunk(code) {
 								const result = await minify(code, {
-									sourceMap: true,
+									sourceMap: false,
 									compress: {
 										passes: 2,
 									},

@@ -129,4 +129,3 @@ function activatable(element, type) {
 export {
   Mimic
 };
-//# sourceMappingURL=mimic.js.map
