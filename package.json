@@ -4,14 +4,14 @@
 	"description": "Lightweight, dependency-free SPA-like page transitions library",
 	"version": "1.0.3",
 	"type": "module",
-	"main": "./dist/mimic.js",
-	"module": "./dist/mimic.js",
+	"main": "./dist/mimic.min.js",
+	"module": "./dist/mimic.min.js",
 	"exports": {
 		".": {
-			"import": "./dist/mimic.js"
+			"import": "./dist/mimic.min.js"
 		},
 		"./flash": {
-			"import": "./dist/flash.js"
+			"import": "./dist/flash.min.js"
 		}
 	},
 	"files": [
