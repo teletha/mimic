@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/teletha/mimic/compare/v1.0.2...v1.0.3) (2025-12-29)
+
+
+### Bug Fixes
+
+* add lock file ([ff28e8e](https://github.com/teletha/mimic/commit/ff28e8ef97ffe5bb5ea07857598057774f3d6f32))
+
 ## [1.0.2](https://github.com/teletha/mimic/compare/v1.0.1...v1.0.2) (2025-12-29)
 
 
