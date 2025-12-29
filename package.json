@@ -2,7 +2,7 @@
 	"name": "@teletha/mimic",
 	"title": "Mimic",
 	"description": "Lightweight, dependency-free SPA-like page transitions library",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"type": "module",
 	"main": "./dist/mimic.js",
 	"module": "./dist/mimic.js",
