@@ -1,18 +1,30 @@
 {
-	"name": "jquery",
-	"title": "jQuery",
-	"description": "JavaScript library for DOM operations",
+	"name": "@teletha/mimic",
+	"title": "Mimic",
+	"description": "Lightweight, dependency-free SPA-like page transitions library",
 	"version": "1.0.0",
-	"main": "dist/jquery.js",
-	"homepage": "https://jquery.com",
+	"main": "src/flash.js",
+	"files": [
+		"src/flash.js",
+		"src/mimic.js"
+	],
+	"homepage": "https://github.com/teletha/mimic",
 	"author": {
-		"name": "OpenJS Foundation and other contributors",
-		"url": "https://github.com/jquery/jquery/blob/main/AUTHORS.txt"
+		"name": "Teletha",
+		"url": "https://github.com/teletha"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jquery/jquery.git"
+		"url": "https://github.com/teletha/mimic.git"
 	},
+	"keywords": [
+		"spa",
+		"page-transition",
+		"history-api",
+		"router",
+		"navigation"
+	],
+	"license": "MIT",
 	"scripts": {
 		"build": "esbuild docs/main.js --bundle --minify --outfile=out.js"
 	}
