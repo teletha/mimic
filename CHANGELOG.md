@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/teletha/mimic/compare/v1.0.3...v1.0.4) (2025-12-29)
+
+
+### Bug Fixes
+
+* minified code is default ([6c7b727](https://github.com/teletha/mimic/commit/6c7b727825974ae6d6edb38395cfab5602c12b8c))
+
 ## [1.0.3](https://github.com/teletha/mimic/compare/v1.0.2...v1.0.3) (2025-12-29)
 
 
