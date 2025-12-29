@@ -3,10 +3,19 @@
 	"title": "Mimic",
 	"description": "Lightweight, dependency-free SPA-like page transitions library",
 	"version": "1.0.0",
-	"main": "src/flash.js",
+	"type": "module",
+	"main": "./dist/mimic.js",
+	"module": "./dist/mimic.js",
+	"exports": {
+		".": {
+			"import": "./dist/mimic.js"
+		},
+		"./flash": {
+			"import": "./dist/flash.js"
+		}
+	},
 	"files": [
-		"src/flash.js",
-		"src/mimic.js"
+		"dist"
 	],
 	"homepage": "https://github.com/teletha/mimic",
 	"author": {
@@ -26,6 +35,12 @@
 	],
 	"license": "MIT",
 	"scripts": {
-		"build": "esbuild docs/main.js --bundle --minify --outfile=out.js"
-	}
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"vite": "^5.0.0"
+	},
+	"packageManager": "pnpm@9.0.0"
 }
